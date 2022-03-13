@@ -5,6 +5,7 @@
       "components/*": ["components/*"],
       "utils/*": ["utils/*"],
       "contexts/*": ["contexts/*"],
+      "reducers/*": ["reducers/*"],
       "assets/*": ["assets/*"]
     }
   }

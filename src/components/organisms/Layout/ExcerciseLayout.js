@@ -4,17 +4,24 @@ import ExampleImg from 'assets/img/example.png';
 
 const ExcerciseLayout = ({ children }) => {
   return (
-    <Flex backgroundColor="#1a242c" w="100%" h="100vh" padding={7}>
+    <Flex
+      backgroundColor="#1a242c"
+      w="100%"
+      h="100vh"
+      padding={7}
+      justifyContent="space-around"
+    >
       <Flex
         w="40%"
-        justify-content="space-between"
+        // justifyContent="space-between"
         alignItems="flex-start"
         flexWrap="wrap"
+        flexDirection="column"
       >
         <Heading as="h1" textStyle="body1">
           Welcome to the Ondefy onboarding process
         </Heading>
-        <Heading as="h2" mt="30px" textStyle="title2Heavy">
+        <Heading as="h2" marginY={5} textStyle="title2Heavy">
           Your mission
         </Heading>
         <UnorderedList>
