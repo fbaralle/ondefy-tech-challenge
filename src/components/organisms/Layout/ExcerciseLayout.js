@@ -13,7 +13,6 @@ const ExcerciseLayout = ({ children }) => {
     >
       <Flex
         w="40%"
-        // justifyContent="space-between"
         alignItems="flex-start"
         flexWrap="wrap"
         flexDirection="column"
